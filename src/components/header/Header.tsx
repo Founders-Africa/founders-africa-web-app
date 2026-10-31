@@ -9,11 +9,12 @@ import { useWaitlistModal } from "@/context/WaitlistContext";
 
 const navItems = [
   { label: "Home", href: "/" },
+  { label: "About", href: "/#about" },
+  { label: "How We Invest", href: "/#how-we-invest" },
+  { label: "Portfolio", href: "/#portfolio" },
   { label: "Programmes", href: "/program" },
   { label: "Summit", href: "/summit" },
-  { label: "About", href: "/#about" },
-  { label: "Impact", href: "/#impact" },
-  { label: "Partners", href: "/#partners" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 function isActivePath(pathname: string, href: string) {

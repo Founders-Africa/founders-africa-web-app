@@ -11,19 +11,20 @@ export default function About() {
           </p>
 
           <h2 className="max-w-lg text-3xl font-semibold leading-tight tracking-tight text-black sm:text-4xl lg:text-[2.65rem]">
-            A home for builders who believe Africa&apos;s time is now.
+            Practical support and relevant capital for ambitious African founders.
           </h2>
 
           <div className="mt-5 space-y-5 text-base leading-7 text-neutral-400 sm:text-lg">
             <p>
-              Since 2018, Founders Africa has supported over 1,200 founders across 38 countries.
-              We provide structured fellowship tracks, mentorship from world-class operators,
-              access to capital, and a community that outlasts the programme.
+              Founders Africa is a pan-African startup ecosystem platform and venture
+              capital firm headquartered in Lagos, Nigeria. We help founders build
+              profitable, scalable ventures through practical resources, mentorship,
+              and operational support.
             </p>
 
             <p>
-              Our annual summit is the continent&apos;s premier gathering for high-growth
-              entrepreneurs and the ecosystem that backs them.
+              We strengthen companies before they raise, invest directly in selected
+              ventures, and connect investment-ready companies with relevant capital.
             </p>
           </div>
 
@@ -31,7 +32,7 @@ export default function About() {
             href="/about"
             className="mt-8 inline-flex items-center gap-3 text-base font-medium text-primary-alt hover:text-primary sm:text-lg"
           >
-            Read Our Story
+            Learn about our approach
             <span aria-hidden="true" className="text-xl leading-none">
               &rarr;
             </span>

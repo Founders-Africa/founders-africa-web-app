@@ -3,22 +3,22 @@ import { FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-foreground px-6 py-16 text-background sm:px-10 lg:px-16">
+    <footer id="contact" className="bg-foreground px-6 py-16 text-background sm:px-10 lg:px-16">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-12">
         <div className="grid gap-10 sm:grid-cols-2 xl:grid-cols-4">
           <div className="flex max-w-md flex-col gap-5">
             <h1 className="text-2xl font-bold">Founders Africa</h1>
             <p className="text-sm leading-7 text-gray-400 sm:text-base">
-              Backing Africa&apos;s most ambitious founders through fellowship, community, and capital.
+              Helping African founders build durable, profitable companies through practical support and capital.
             </p>
             <div className="flex gap-4">
-              <Link href="" className="hover:text-gray-400">
+              <Link href="#" className="hover:text-gray-400" aria-label="X profile placeholder">
                 <FaXTwitter size={20} />
               </Link>
-              <Link href="" className="hover:text-gray-400">
+              <Link href="#" className="hover:text-gray-400" aria-label="Instagram profile placeholder">
                 <FaInstagram size={20} />
               </Link>
-              <Link href="" className="hover:text-gray-400">
+              <Link href="#" className="hover:text-gray-400" aria-label="LinkedIn profile placeholder">
                 <FaLinkedinIn size={20} />
               </Link>
             </div>
@@ -65,17 +65,20 @@ export default function Footer() {
               Organization
             </h2>
             <Link href="/#about" className="hover:text-gray-400">
-              About Us
+              About
             </Link>
-            <Link href="/#impact" className="hover:text-gray-400">
-              Impact Report
+            <Link href="/#how-we-invest" className="hover:text-gray-400">
+              How We Invest
             </Link>
-            <Link href="/#partners" className="hover:text-gray-400">
-              Partners
+            <Link href="/#portfolio" className="hover:text-gray-400">
+              Portfolio
             </Link>
-            <Link href="/#newsletter" className="hover:text-gray-400">
-              Newsletter
+            <Link href="/#contact" className="hover:text-gray-400">
+              Contact
             </Link>
+            <a href="mailto:info@foundersafrica.net" className="hover:text-gray-400">
+              info@foundersafrica.net
+            </a>
           </div>
         </div>
 

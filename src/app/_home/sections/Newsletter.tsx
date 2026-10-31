@@ -19,11 +19,11 @@ export default function Newsletter() {
         </p>
 
         <h2 className="mt-3 max-w-3xl text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-[2.65rem]">
-          Opportunities, news, and insights - straight to your inbox.
+          Occasional updates for founders, investors, and ecosystem partners.
         </h2>
 
         <p className="mt-4 max-w-2xl text-base leading-7 text-neutral-500 sm:text-lg">
-          Join our community updates and be first to hear about programmes, events, and founder stories.
+          Get updates on Founders Africa, founder resources, and upcoming events.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-10 flex w-full max-w-2xl flex-col gap-3 rounded-full bg-[#f5f5f5] p-3 shadow-[0_10px_30px_rgba(13,17,23,0.04)] sm:flex-row">

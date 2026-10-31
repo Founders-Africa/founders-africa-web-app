@@ -1,5 +1,7 @@
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import HowWeInvest from "./sections/HowWeInvest";
+import Portfolio from "./sections/Portfolio";
 import FellowshipTracks from "./sections/FellowshipTracks";
 import StatsBand from "./sections/StatsBand";
 import PressBar from "./sections/PressBar";
@@ -10,6 +12,8 @@ export default function HomePage() {
     <div className="flex w-full flex-col">
       <Hero />
       <About />
+      <HowWeInvest />
+      <Portfolio />
       <FellowshipTracks />
       <StatsBand />
       <PressBar />
